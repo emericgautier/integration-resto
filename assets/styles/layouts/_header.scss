@@ -24,9 +24,7 @@ header {
         }
 
         ul {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
+            @include alignChildren(space-around);
             text-transform: uppercase;
             font-size: 0.7rem;
             padding: 0 30px;
@@ -41,9 +39,7 @@ header {
         }
 
         .nav-icons {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
+            @include alignChildren(space-around);
             font-size: 0.8rem;
             
             i {
@@ -58,9 +54,7 @@ header {
         }
     }
     .header-text {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include childCenter;
         height: 88vh;
 
         div {
