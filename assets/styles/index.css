@@ -129,35 +129,35 @@ header .header-text div h6 {
   background: #eee;
 }
 .section1 .intro-text {
-  border: 1px dashed rgb(180, 180, 180);
-  margin: 10px;
-  padding: 20px 5px;
+  border: 1px dashed rgb(165, 115, 70);
+  margin: 15px;
+  padding: 30px 15px;
 }
 .section1 .intro-text h2 {
   font-family: allura, cursive;
   color: rgb(165, 115, 70);
-  font-weight: 100;
+  font-weight: 500;
   font-size: 2rem;
 }
 .section1 .intro-text h3 {
   font-family: poppins, serif;
   font-weight: 700;
-  margin-top: -10px;
+  margin-top: -12px;
 }
 .section1 .intro-text img {
-  padding: 25px;
-  border-radius: 50%;
+  margin: 25px;
 }
-.section1 .intro-text p {
-  color: grey;
-  padding: 20px 0;
+.section1 .intro-text img:nth-of-type(2) {
+  height: 70px;
+  border-radius: 150px;
+  margin-bottom: 8px;
 }
 .section1 .intro-text h4 {
   font-family: poppins, serif;
   font-weight: 100;
 }
 .section1 .intro-text h5 {
-  color: grey;
+  color: rgb(180, 180, 180);
   font-size: 0.7rem;
 }
 .section1 .intro-pic {
