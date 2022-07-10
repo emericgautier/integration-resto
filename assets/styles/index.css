@@ -162,4 +162,37 @@ header .header-text div h6 {
 }
 .section1 .intro-pic {
   background: url(/assets/img/store-01.jpg) center/cover;
+}
+
+.section2 h2 {
+  font-family: allura, cursive;
+  color: rgb(165, 115, 70);
+  padding-top: 20px;
+  font-size: 2rem;
+}
+.section2 img {
+  height: 27px;
+  width: 27px;
+  margin: 30px 0;
+}
+.section2 ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 60%;
+  color: #eee;
+  padding-bottom: 100px;
+}
+.section2 li {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+.section2 .meals {
+  background: url(/assets/img/bg-menu-01.jpg) center/cover;
+}
+.section2 .meal {
+  background: #eee;
+  width: 75%;
+  margin: 0 auto;
 }/*# sourceMappingURL=index.css.map */
