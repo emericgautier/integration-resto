@@ -1,0 +1,49 @@
+.section1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: $white;
+
+    .intro-text {
+        border: 1px dashed $grey;
+        margin: 10px;
+        padding: 20px 5px;
+
+        h2 {
+            font-family: $font1;
+            color: $color1;
+            font-weight: 100;
+            font-size: 2rem;
+        }
+
+        h3 {
+            font-family: $font2;
+            font-weight: 700;
+            margin-top: -10px;
+        }
+
+        img {
+            padding: 25px;
+            border-radius: 50%;
+        }
+
+        p {
+            color : grey;
+            padding: 20px 0;
+        }
+
+        h4 {
+            font-family: $font2;
+            font-weight: 100;
+        }
+
+        h5 {
+            color: grey;
+            font-size: 0.7rem;
+
+        }
+    }
+
+    .intro-pic {
+        background: url(/assets/img/store-01.jpg) center/cover;
+    }
+}
