@@ -368,4 +368,42 @@ header .header-text div h6 {
 .section3 .form-content .form-infos button:hover {
   transform: translateX(3px);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.43);
+}
+
+.section4 {
+  padding: 50px 20px 90px;
+}
+.section4 .events-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.section4 .events-container h2 {
+  font-family: allura, cursive;
+  color: rgb(165, 115, 70);
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+.section4 .events-container h4 {
+  font-family: poppins, serif;
+  color: #eee;
+  font-weight: 700;
+  margin-top: -5px;
+}
+.section4 .events-container img {
+  padding: 20px;
+}
+.section4 .events-container .event-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "event-1 event-3" "event-2 event-3";
+}
+.section4 .events-container .event-grid .event-1 {
+  grid-area: event-1;
+}
+.section4 .events-container .event-grid .event-2 {
+  grid-area: event-2;
+}
+.section4 .events-container .event-grid .event-3 {
+  grid-area: event-3;
 }/*# sourceMappingURL=index.css.map */

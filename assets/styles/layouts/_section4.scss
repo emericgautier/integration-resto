@@ -1,0 +1,52 @@
+.section4 {
+    padding: 50px 20px 90px;
+
+
+    .events-container {
+        max-width: 1000px;
+        margin: 0 auto;
+
+
+        h2 {
+            font-family: $font1;
+            color: $color1;
+            font-size: 2.5rem;
+            font-weight: 100;
+        }
+        h4 {
+            font-family: $font2;
+            color: $white;
+            font-weight: 700;
+            margin-top: -5px;
+        }
+        img {
+            padding: 20px;
+        }
+
+
+
+        .event-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-areas: 
+            "event-1 event-3"
+            "event-2 event-3";
+
+            .event-1 {
+                grid-area: event-1;
+            }
+            .event-2 {
+                grid-area: event-2;
+            }
+            .event-3 {
+                grid-area: event-3;
+            }
+
+            .event-left {
+                
+            }
+        }
+    }
+
+}
