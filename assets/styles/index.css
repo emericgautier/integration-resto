@@ -539,4 +539,71 @@ header .header-text div h6 {
 }
 .section5 .quote-container p {
   color: rgb(165, 115, 70);
+}
+
+footer {
+  background: url(/assets/img/bg-footer.jpg) center/cover;
+  padding: 65px 32px;
+  text-align: left;
+  color: #eee;
+}
+footer .footer-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+footer .footer-content .left-part {
+  padding-right: 30px;
+  line-height: 30px;
+}
+footer .footer-content .left-part h2 {
+  font-family: allura, cursive;
+  color: rgb(165, 115, 70);
+  font-size: 2.5rem;
+  font-weight: 100;
+  margin-bottom: 15px;
+}
+footer .footer-content .left-part p {
+  font-size: 0.9rem;
+  color: rgb(180, 180, 180);
+}
+footer .footer-content .right-part {
+  padding-left: 50px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+footer .footer-content .right-part .newsletter h3 {
+  font-size: 0.85rem;
+}
+footer .footer-content .right-part .newsletter input {
+  margin-top: 15px;
+  padding: 7px 14px;
+  background: none;
+  width: 250px;
+  border: 1px solid rgba(165, 115, 70, 0.15);
+}
+footer .footer-content .right-part .follow-us {
+  display: flex;
+  margin-top: 50px;
+}
+footer .footer-content .right-part .follow-us h3 {
+  font-size: 0.85rem;
+}
+footer .footer-content .right-part .follow-us ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-items: start;
+  flex-wrap: wrap;
+  color: #595956;
+  font-size: 0.8rem;
+  width: 200px;
+  cursor: pointer;
+}
+footer .footer-content .right-part .follow-us ul i {
+  transition: 0.2s;
+}
+footer .footer-content .right-part .follow-us ul i:hover {
+  transform: scale(1.5);
 }/*# sourceMappingURL=index.css.map */
