@@ -33,7 +33,7 @@ body {
 }
 
 header {
-  background: url(/assets/img/bg-slider-06.jpg) center/cover;
+  background: url(../img/bg-slider-06.jpg) center/cover;
   color: #eee;
   padding: 0 50px;
 }
@@ -167,7 +167,7 @@ header .header-text div h6 {
   font-size: 0.7rem;
 }
 .section1 .intro-pic {
-  background: url(/assets/img/store-01.jpg) center/cover;
+  background: url(../img/store-01.jpg) center/cover;
 }
 @media screen and (max-width: 680px) {
   .section1 .intro-pic {
@@ -185,7 +185,7 @@ header .header-text div h6 {
   position: absolute;
   height: 620px;
   width: 100%;
-  background: url(/assets/img/bg-menu-01.jpg) center/cover;
+  background: url(../img/bg-menu-01.jpg) center/cover;
   left: 50%;
   bottom: -330px;
   transform: translate(-50%, -50%);
@@ -478,17 +478,17 @@ header .header-text div h6 {
   grid-area: a;
 }
 .section4 .events-container .event-grid .event-1 .date {
-  background: url(/assets/img/event-01.jpg) center/cover;
+  background: url(../img/event-01.jpg) center/cover;
 }
 .section4 .events-container .event-grid .event-2 {
   grid-area: c;
 }
 .section4 .events-container .event-grid .event-2 .date {
-  background: url(/assets/img/event-02.jpg) center/cover;
+  background: url(../img/event-02.jpg) center/cover;
 }
 .section4 .events-container .event-grid .event-3 {
   grid-area: b;
-  background: url(/assets/img/event-03.jpg) center/cover;
+  background: url(../img/event-03.jpg) center/cover;
   padding: 25px;
 }
 .section4 .events-container .event-grid .event-3 .address {
@@ -511,7 +511,7 @@ header .header-text div h6 {
   height: 350px;
   width: 100%;
   position: absolute;
-  background: url(/assets/img/gmap.jpg) center/cover;
+  background: url(../img/gmap.jpg) center/cover;
   bottom: 0;
   left: 0;
 }
@@ -530,7 +530,7 @@ header .header-text div h6 {
   width: 60px;
   height: 60px;
   border-radius: 50px;
-  background: url(/assets/img/avatar-02.jpg) center/cover;
+  background: url(../img/avatar-02.jpg) center/cover;
   top: -30px;
   left: 50%;
   transform: translateX(-50%);
@@ -557,7 +557,7 @@ header .header-text div h6 {
 }
 
 footer {
-  background: url(/assets/img/bg-footer.jpg) center/cover;
+  background: url(../img/bg-footer.jpg) center/cover;
   padding: 65px 32px;
   text-align: left;
   color: #eee;
