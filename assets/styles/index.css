@@ -262,4 +262,110 @@ header .header-text div h6 {
   display: grid;
   align-items: center;
   height: 100%;
+}
+
+.section3 {
+  padding: 100px 15px 65px;
+  color: #eee;
+}
+.section3 .form-content {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  max-width: 1050px;
+  margin: 0 auto;
+  background: #eee;
+}
+@media screen and (max-width: 850px) {
+  .section3 .form-content {
+    grid-template-columns: 1fr;
+  }
+}
+.section3 .form-content .hours {
+  background: black;
+  padding: 24px;
+}
+.section3 .form-content .hours .hours-content {
+  border: 1px dashed rgb(180, 180, 180);
+  padding: 20px 0;
+}
+.section3 .form-content .hours .hours-content h3 {
+  font-family: allura, cursive;
+  color: rgb(165, 115, 70);
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+.section3 .form-content .hours .hours-content h4 {
+  font-family: poppins, serif;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+  margin-top: -16px;
+}
+.section3 .form-content .hours .hours-content img {
+  margin-top: 25px;
+}
+.section3 .form-content .hours .hours-content h5 {
+  text-transform: uppercase;
+  color: rgb(165, 115, 70);
+  font-family: poppins, serif;
+  font-weight: 100;
+  font-size: 1.1rem;
+  margin: 38px 0 12px;
+}
+.section3 .form-content .hours .hours-content p {
+  font-size: 0.85rem;
+}
+.section3 .form-content .form-infos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+.section3 .form-content .form-infos h2 {
+  font-family: allura, cursive;
+  color: rgb(165, 115, 70);
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+.section3 .form-content .form-infos h3 {
+  font-family: poppins, serif;
+  color: #21211e;
+  margin-top: -18px;
+  font-size: 1.8rem;
+}
+.section3 .form-content .form-infos img {
+  height: 25px;
+  margin: 25px;
+}
+.section3 .form-content .form-infos .form-inputs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 680px) {
+  .section3 .form-content .form-infos .form-inputs {
+    grid-template-columns: 1fr;
+  }
+}
+.section3 .form-content .form-infos .form-inputs > * {
+  padding: 10px 0;
+  margin: 10px;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(180, 180, 180);
+}
+.section3 .form-content .form-infos button {
+  padding: 16px 34px;
+  letter-spacing: 4px;
+  border-radius: 50px;
+  font-weight: 700;
+  color: #eee;
+  background: #21211e;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.section3 .form-content .form-infos button:hover {
+  transform: translateX(3px);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.43);
 }/*# sourceMappingURL=index.css.map */
