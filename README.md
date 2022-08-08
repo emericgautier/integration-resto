@@ -1,6 +1,8 @@
 # Le Resto
 
-Intégration d'une maquette
+~ Intégration d'une maquette
+
+~ SEO, référencement naturel
 
 ### Technologies
 
